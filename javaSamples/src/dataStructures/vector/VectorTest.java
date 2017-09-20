@@ -25,13 +25,11 @@ public class VectorTest {
 			list.add(y);
 		}
 		System.out.println(list);
-		
-		
-		
+
 		list.remove(1);
-		
+
 		System.out.println(list);
-		
+
 	}
 
 }
