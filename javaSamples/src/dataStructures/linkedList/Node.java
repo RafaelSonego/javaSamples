@@ -5,6 +5,11 @@ public class Node {
 	private Object element;
 	private Node next;
 
+	public Node(Object element, Node next) {
+		this.element = element;
+		this.next = next;
+	}
+
 	public Object getElement() {
 		return element;
 	}

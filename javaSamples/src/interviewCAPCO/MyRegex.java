@@ -16,12 +16,12 @@ public class MyRegex {
 		Pattern myReg = Pattern.compile(pattern);
 		return myReg.matcher(iP).matches();
 	}
-	
-	/*
-	 * SELECT   MIN(a.ID) a, b.ID b
-FROM     VALUE_PAIRS a JOIN VALUE_PAIRS b ON b.p = a.p AND b.ID > a.ID
-GROUP BY b.ID
 
-	 * */
+	/*
+	 * 
+	 	SELECT   MIN(a.ID) a, b.ID b
+		FROM     VALUE_PAIRS a JOIN VALUE_PAIRS b ON b.p = a.p AND b.ID > a.ID
+		GROUP BY b.ID
+	*/
 	
 }
